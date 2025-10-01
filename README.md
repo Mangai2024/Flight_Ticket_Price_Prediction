@@ -1,10 +1,10 @@
 # Flight_Ticket_Price_Prediction
-📌 Project Overview
+📌 **Project Overview**
 
 This project predicts flight ticket prices based on features such as airline, source city, destination city, departure time, arrival time, class, duration, stops, and days left before travel.
 The goal is to build a machine learning model that can accurately estimate ticket prices and assist in better pricing strategies.
 
-📊 Dataset
+📊 **Dataset**
 
 Rows: ~300,000
 
@@ -34,17 +34,17 @@ Hyperparameter Tuning → Applied RandomizedSearch on XGBoost to improve perform
 
 Evaluation → Compared models using MAE, RMSE, and R².
 
-📈 Model Performance
+📈****** **Model Performance******
 Before Tuning
 
 Random Forest → R² ≈ 0.74
 
 XGBoost → R² ≈ 0.77
 
-After Hyperparameter Tuning
+**After Hyperparameter Tuning**
 
-XGBoost (Tuned) → R² ≈ 0.98 🎯
-
+XGBoost (Tuned) → R² ≈ **0.98 🎯
+**
 💾 Model Saving
 
 The best-performing model (tuned XGBoost) was saved as a .pkl file using joblib for deployment.
