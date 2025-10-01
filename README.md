@@ -37,13 +37,13 @@ Evaluation → Compared models using MAE, RMSE, and R².
 📈****** **Model Performance******
 Before Tuning
 
-Random Forest → R² ≈ 0.74
+**Random Forest → R² ≈ 0.74**
 
-XGBoost → R² ≈ 0.77
-
+**XGBoost → R² ≈ 0.77
+**
 **After Hyperparameter Tuning**
 
-XGBoost (Tuned) → R² ≈ **0.98 🎯
+**XGBoost (Tuned) → R² ≈ **0.98 🎯**
 **
 💾 Model Saving
 
